@@ -1,6 +1,21 @@
+import { useEffect, useState } from "react";
 import { Link } from "react-router";
+import type { productTypeWithId } from "../utils/type";
+import { fetchAll } from "../services/cartService";
 
 export default function Sidebar() {
+
+    const [cartProducts, setCartProducts] = useState<productTypeWithId[]>([]);
+
+    useEffect(() => {
+        fetchAllProducts();
+    }, []);
+
+    async function fetchAllProducts() {
+        const res = await fetchAll();
+
+        setCartProducts(res);
+    }
 
     return (
         <aside className="fixed left-0 top-0 z-40 h-screen w-64 border-r border-slate-200 bg-white/80 backdrop-blur-md transition-transform dark:border-slate-800 dark:bg-slate-900/80">
@@ -82,7 +97,7 @@ export default function Sidebar() {
                             </svg>
                             <span className="text-sm font-semibold">My Cart</span>
                         </div>
-                        <span className="rounded-full bg-indigo-600 px-2 py-0.5 text-xs text-white">0</span>
+                        <span className="rounded-full bg-indigo-600 px-2 py-0.5 text-xs text-white">{cartProducts.length}</span>
                     </Link>
                 </div>
             </div>

@@ -489,15 +489,6 @@
   ],
   "cart": [
     {
-      "product_name": "Apple 2026 MacBook Pro Laptop",
-      "product_category": "Electronics",
-      "product_price": 500000,
-      "product_stock": 5,
-      "product_image": "https://m.media-amazon.com/images/I/61h78UMEXjL._SL1500_.jpg",
-      "product_description": "FAST RUNS IN THE FAMILY — The 16″ MacBook Pro with the M5 Pro or M5 Max chip brings next-generation speed and powerful on-device AI to personal, professional and creative tasks. With all-day battery life, double the starting storage and a breathtaking Liquid Retina XDR display, it’s pro in every way.",
-      "id": "IsxGXxP2MPA"
-    },
-    {
       "product_name": "IPhone 16(Black, 128GB)",
       "product_category": "Electronics",
       "product_price": 1500000,
@@ -507,15 +498,6 @@
       "id": "Q_Ok8L-f-JE"
     },
     {
-      "product_name": "2026 X7 Portable Game Player",
-      "product_category": "Gaming",
-      "product_price": 4999,
-      "product_stock": 50,
-      "product_image": "https://m.media-amazon.com/images/I/4121A7nCQ5L._SX300_SY300_QL70_FMwebp_.jpg",
-      "product_description": "4.3-Inch HD Display Bright, clear screen with vivid colors for an immersive handheld gaming experience.\nDual Rocker Controls Ergonomic dual joystick design ensures precise control and comfortable gameplay during long sessions.\n10,000 Built-in Classic Games Huge collection of retro arcade and console games—ready to play, no internet needed.\n8GB Internal Memory Ample storage to support thousands of games and multimedia files.\nInbuilt Camera Capture photos and videos directly from the device for added fun.",
-      "id": "ED8PitztXkc"
-    },
-    {
       "product_name": "Smartphone X Pro",
       "product_category": "Electronics",
       "product_price": 45000,
@@ -523,6 +505,15 @@
       "product_image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=300",
       "product_description": "Latest smartphone with advanced features.",
       "id": "xGieij5-6QY"
+    },
+    {
+      "product_name": "IPhone 16(Black, 128GB)",
+      "product_category": "Electronics",
+      "product_price": 1500000,
+      "product_stock": 100,
+      "product_image": "data:image/jpeg;base64,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",
+      "product_description": "This is a good electronic device you should try it once after purchasing.",
+      "id": "2jOZuILOWyg"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"
